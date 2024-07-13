@@ -18,6 +18,7 @@ describe("Login tests", () => {
         cy.contains("Lütfen geçerli bir email adresi giriniz!").should("be.visible");
     })
 
+    //test 3
     it("Email&Password validation test", ()=> {
         cy.get("[data-cy='email-input']").type("alibas.com")
         cy.get("[data-cy='password-input']").type("415")
