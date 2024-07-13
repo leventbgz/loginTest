@@ -28,6 +28,7 @@ describe("Login tests", () => {
         cy.contains("Lütfen büyük/küçük harflerden ve en az bir rakamdan oluşan bir şifre giriniz!").should("be.visible");
     })
 
+    //test 4 
     it("Terms validation test", ()=> {
         cy.get("[data-cy='email-input']").type("ali@bas.com")
         cy.get("[data-cy='password-input']").type("415511Lb")
