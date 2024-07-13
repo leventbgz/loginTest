@@ -2,7 +2,7 @@ describe("Login tests", () => {
     beforeEach(()=> {
         cy.visit("http://localhost:5173/")
     });
-
+    //test 1
     it("Form Success test", ()=> {
         cy.get("[data-cy='email-input']").type("ali@bas.com")
         cy.get("[data-cy='password-input']").type("415511Lb")
