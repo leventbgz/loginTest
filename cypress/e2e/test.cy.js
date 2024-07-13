@@ -9,7 +9,7 @@ describe("Login tests", () => {
         cy.get("[data-cy='terms-input']").check();
         cy.get("[data-cy='submit-btn']").should("be.enabled");
     })
-
+    //test 2
     it("Email validation test", ()=> {
         cy.get("[data-cy='email-input']").type("alibas.com")
         cy.get("[data-cy='password-input']").type("415511Lb")
